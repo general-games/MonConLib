@@ -19,6 +19,9 @@ var commander = new ConsoleCommander();
 
 // Create console handler
 var consoleHandler = new ConsoleHandler(logger, commander);
+// Pass the window to the Console Handler (Handles keyboard input)
+consoleHandler.AttachToWindow(Window);
+
 
 // Add commands
 commander.AddNode(new ToggleParameterNode("on", "off", () => EnableDebug(), () => DisableDebug()));
