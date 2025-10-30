@@ -21,7 +21,7 @@ var commander = new ConsoleCommander();
 var consoleHandler = new ConsoleHandler(logger, commander);
 
 // Add commands
-commander.AddNode(new ToggleParameterNode("debug", "off", () => EnableDebug(), () => DisableDebug()));
+commander.AddNode(new ToggleParameterNode("on", "off", () => EnableDebug(), () => DisableDebug()));
 
 // In your Game class Update method
 consoleHandler.Update(gameTime);
