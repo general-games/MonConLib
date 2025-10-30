@@ -1,0 +1,12 @@
+/home/chk/Work/MonConP/MonConLib/bin/Release/net8.0/MonConLib.deps.json
+/home/chk/Work/MonConP/MonConLib/bin/Release/net8.0/MonConLib.dll
+/home/chk/Work/MonConP/MonConLib/bin/Release/net8.0/MonConLib.pdb
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.csproj.AssemblyReference.cache
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.AssemblyInfoInputs.cache
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.AssemblyInfo.cs
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.csproj.CoreCompileInputs.cache
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.dll
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/refint/MonConLib.dll
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/MonConLib.pdb
+/home/chk/Work/MonConP/MonConLib/obj/Release/net8.0/ref/MonConLib.dll
