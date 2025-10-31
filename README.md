@@ -64,7 +64,9 @@ _consoleHandler.LoadContent(spriteFont);
 _consoleHandler.Update(gameTime);
 
 // In your Game class Draw method
+spriteBatch.Begin();
 _consoleHandler.Draw(spriteBatch);
+spriteBatch.End();
 ```
 
 
