@@ -57,15 +57,19 @@ _consoleHandler.AddNode(gameNode);
 _consoleHandler.AddNode(gridSizeNode);
 _consoleHandler.AddNode(debugNode);
 
+// In you Game LoadContent method - YOU NEED TO ADD FONT OR IT WILL NOT DISPLAY
+_consoleHandler.LoadContent(spriteFont);
+
 // In your Game class Update method
-consoleHandler.Update(gameTime);
+_consoleHandler.Update(gameTime);
 
 // In your Game class Draw method
-consoleHandler.Draw(spriteBatch);
+_consoleHandler.Draw(spriteBatch);
 ```
 
 
 ## USAGE
+- Use the _consoleHandler.LoadContent(Spritefont font) to add a font (Will not work if you don't)
 - Use the _consoleHandler.ToggleConsole() to open/close the console
 - Use ":" to start a command - pressing enter will list the available nodes in the current node
 - Use "->" to invoke a command 
