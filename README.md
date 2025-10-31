@@ -17,15 +17,15 @@ A console library for MonoGame Framework applications that provides an in-game d
 var logger = new ConsoleLogger();
 var commander = new ConsoleCommander();
 
-// TODO: Add your initialization logic here
 _consoleHandler = new ConsoleHandler(new ConsoleLogger(), new ConsoleCommander());
 _consoleHandler.AttachToWindow(Window);
 
-
+//Eample Values
 int startLevel = 0;
 int width = 10;
 int height = 10;
 bool isDebugMode = true;
+
 // SETUP THE MONCON CONSOLE COMMANDER//
 //You can setup the console commander by creating a node, then attatch new nodes to it.
 
@@ -70,7 +70,7 @@ consoleHandler.Draw(spriteBatch);
 - Use ":" to start a command - pressing enter will list the available nodes in the current node
 - Use "->" to invoke a command 
 
-Example:
+Example (from example code above):
 1. Open Console
 2. :game:gridsize->12,12 
 
