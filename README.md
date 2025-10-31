@@ -17,7 +17,7 @@ A console library for MonoGame Framework applications that provides an in-game d
 var logger = new ConsoleLogger();
 var commander = new ConsoleCommander();
 
-_consoleHandler = new ConsoleHandler(new ConsoleLogger(), new ConsoleCommander());
+_consoleHandler = new ConsoleHandler(logger, commander);
 _consoleHandler.AttachToWindow(Window);
 
 //Eample Values
