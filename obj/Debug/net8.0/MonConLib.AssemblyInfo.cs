@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A console library for MonoGame Framework applications")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8250bfd799b0f3a168373413f60d1d3550a577be")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonConLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonConLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

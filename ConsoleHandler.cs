@@ -22,6 +22,7 @@ namespace MonCon
         private ConsoleCommandNode _commandTree;
         private ConsoleLogger _logger;
         private GameWindow _window;
+        private Texture2D _backgroundTexture;
 
         public bool IsOpen => _isOpen;
 
@@ -202,12 +203,16 @@ namespace MonCon
 
         private void DrawConsoleBackground(SpriteBatch spriteBatch)
         {
+            if (_backgroundTexture == null)
+            {
+                _backgroundTexture = new Texture2D(spriteBatch.GraphicsDevice, 1, 1);
+            }
+
             _consoleWidth = spriteBatch.GraphicsDevice.Viewport.Width;
             _consoleHeight = spriteBatch.GraphicsDevice.Viewport.Height / 2;
 
-            Texture2D rect = new Texture2D(spriteBatch.GraphicsDevice, 1, 1);
-            rect.SetData(new[] { new Color(0, 0, 0, 200) });
-            spriteBatch.Draw(rect, new Rectangle(0, 0, _consoleWidth, _consoleHeight), Color.White);
+            _backgroundTexture.SetData(new[] { new Color(0, 0, 0, 200) });
+            spriteBatch.Draw(_backgroundTexture, new Rectangle(0, 0, _consoleWidth, _consoleHeight), Color.White);
         }
 
         public void Draw(SpriteBatch spriteBatch)
